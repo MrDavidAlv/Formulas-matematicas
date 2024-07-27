@@ -344,7 +344,7 @@
     $$\{e_1, e_2, \ldots, e_n\}$$
 169. **Vector columna**
      
-     $$\begin{pmatrix}x_1\\\x_2\\\vdots\\\x_n\end{pmatrix}$$
+$$\begin{pmatrix}x_1\\\x_2\\\vdots\\\x_n\end{pmatrix}$$
 
 171. **Vector fila**
      
