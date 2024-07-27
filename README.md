@@ -1,4 +1,4 @@
-# 200 FORMULAS DE MATEMÁTICAS, FÍSICA Y ÁLGEBRA LINEAL
+# 230 FORMULAS DE MATEMÁTICAS, FÍSICA, ÁLGEBRA LINEAL Y ESTADÍSTICA
 
 ## MATEMÁTICAS
 1. **Ecuación cuadrática**
@@ -412,3 +412,127 @@ $$\begin{pmatrix} x_1 & x_2 & \cdots & x_n \end{pmatrix}$$
 202. **Diagonalización (repetida)**
     $$A = PDP^{-1}$$
 
+## Estadística
+
+201. **Media aritmética**
+    
+$$\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i$$
+
+202. **Mediana**
+
+$$\text{Mediana} = \begin{cases} 
+\frac{x_{(n/2)} + x_{((n/2) + 1)}}{2} & \text{si } n \text{ es par} \\
+x_{((n+1)/2)} & \text{si } n \text{ es impar}
+\end{cases}$$
+
+203. **Moda**
+
+$$\text{Moda} = \text{Valor que ocurre con mayor frecuencia}$$
+
+204. **Varianza**
+
+$$\sigma^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2$$
+
+205. **Desviación estándar**
+
+$$\sigma = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2}$$
+
+206. **Coeficiente de variación**
+
+$$CV = \frac{\sigma}{\bar{x}} \times 100\%$$
+
+207. **Covarianza**
+
+$$\text{Cov}(X, Y) = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})$$
+
+208. **Correlación**
+
+$$\rho_{X,Y} = \frac{\text{Cov}(X, Y)}{\sigma_X \sigma_Y}$$
+
+209. **Coeficiente de correlación de Pearson**
+
+$$r = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n} (x_i - \bar{x})^2 \sum_{i=1}^{n} (y_i - \bar{y})^2}}$$
+
+210. **Intervalo de confianza**
+
+$$\bar{x} \pm z \frac{\sigma}{\sqrt{n}}$$
+
+211. **Error estándar de la media**
+
+$$SE = \frac{\sigma}{\sqrt{n}}$$
+
+212. **Prueba de hipótesis**
+
+$$\text{Estadístico de prueba} = \frac{\bar{x} - \mu_0}{\frac{\sigma}{\sqrt{n}}}$$
+
+213. **P-valor**
+
+$$\text{P-valor} = P(Z \geq \text{Estadístico de prueba})$$
+
+214. **Estimador de máxima verosimilitud**
+
+$$\hat{\theta} = \arg \max_{\theta} L(\theta)$$
+
+215. **Regresión lineal simple**
+
+$$y = \beta_0 + \beta_1 x + \epsilon$$
+
+216. **Coeficientes de regresión**
+
+$$\beta_1 = \frac{\text{Cov}(X, Y)}{\text{Var}(X)}, \; \beta_0 = \bar{y} - \beta_1 \bar{x}$$
+
+217. **Ecuación de la recta de ajuste**
+
+$$\hat{y} = \beta_0 + \beta_1 x$$
+
+218. **Análisis de varianza (ANOVA)**
+
+$$F = \frac{\text{Varianza entre grupos}}{\text{Varianza dentro de los grupos}}$$
+
+219. **Prueba t de Student**
+
+$$t = \frac{\bar{x} - \mu_0}{\frac{s}{\sqrt{n}}}$$
+
+220. **Distribución normal estándar**
+
+$$Z = \frac{X - \mu}{\sigma}$$
+
+221. **Regresión múltiple**
+
+$$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_k x_k + \epsilon$$
+
+222. **Media ponderada**
+
+$$\bar{x}_w = \frac{\sum_{i=1}^{n} w_i x_i}{\sum_{i=1}^{n} w_i}$$
+
+223. **Estimador de la varianza muestral**
+
+$$s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2$$
+
+224. **Prueba Chi-cuadrado**
+
+$$\chi^2 = \sum_{i=1}^{k} \frac{(O_i - E_i)^2}{E_i}$$
+
+225. **Índice de Gini**
+
+$$G = 1 - \sum_{i=1}^{n} (p_i)^2$$
+
+226. **Coeficiente de determinación (R²)**
+
+$$R^2 = \frac{\text{Suma de cuadrados explicada}}{\text{Suma de cuadrados total}}$$
+
+227. **Transformación Z**
+
+$$Z = \frac{X - \bar{X}}{S}$$
+
+228. **Prueba de independencia de Chi-cuadrado**
+
+$$\chi^2 = \sum_{i=1}^{r} \sum_{j=1}^{c} \frac{(O_{ij} - E_{ij})^2}{E_{ij}}$$
+
+229. **Función de densidad de probabilidad (pdf) para una distribución normal**
+
+$$f(x) = \frac{1}{\sigma \sqrt{2 \pi}} \exp \left( -\frac{(x - \mu)^2}{2 \sigma^2} \right)$$
+
+230. **Función de distribución acumulada (CDF) para una distribución normal**
+
+$$F(x) = \frac{1}{2} \left[1 + \text{erf} \left( \frac{x - \mu}{\sigma \sqrt{2}} \right) \right]$$
