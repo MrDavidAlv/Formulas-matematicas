@@ -343,67 +343,72 @@
 168. **Base ortonormal**
     $$\{e_1, e_2, \ldots, e_n\}$$
 169. **Vector columna**
-    $$\begin{pmatrix} x_1 \\ x_2 \\ \vdots \\ x_n \end{pmatrix}$$
-170. **Vector fila**
-    $$\begin{pmatrix} x_1 & x_2 & \cdots & x_n \end{pmatrix}$$
-171. **Matriz simétrica**
+     
+     $$\begin{pmatrix}x_1\\\x_2\\\vdots\\\x_n\end{pmatrix}$$
+
+171. **Vector fila**
+     
+$$\begin{pmatrix} x_1 & x_2 & \cdots & x_n \end{pmatrix}$$
+
+
+173. **Matriz simétrica**
     $$A = A^T$$
-172. **Matriz antisymmetric**
+174. **Matriz antisymmetric**
     $$A = -A^T$$
-173. **Producto tensorial**
+175. **Producto tensorial**
     $$A \otimes B$$
-174. **Producto de Kronecker**
+176. **Producto de Kronecker**
     $$A \otimes B$$
-175. **Matriz de permutación**
+177. **Matriz de permutación**
     $$P$$
-176. **Transposición de una matriz**
+178. **Transposición de una matriz**
     $$P^T$$
-177. **Multiplicación de una matriz por un escalar**
+179. **Multiplicación de una matriz por un escalar**
     $$\alpha A$$
-178. **Determinante de una matriz triangular**
+180. **Determinante de una matriz triangular**
     $$\det(T) = \prod_{i=1}^n t_{ii}$$
-179. **Propiedad del determinante respecto a la transposición**
+181. **Propiedad del determinante respecto a la transposición**
     $$\det(A) = \det(A^T)$$
-180. **Propiedad del determinante respecto a la inversa**
+182. **Propiedad del determinante respecto a la inversa**
     $$\det(A^{-1}) = \frac{1}{\det(A)}$$
-181. **Desigualdad de Cauchy-Schwarz**
+183. **Desigualdad de Cauchy-Schwarz**
     $$|u \cdot v| \leq \|u\| \|v\|$$
-182. **Desigualdad triangular**
+184. **Desigualdad triangular**
     $$\|u + v\| \leq \|u\| + \|v\|$$
-183. **Propiedad de la linealidad de la traza**
+185. **Propiedad de la linealidad de la traza**
     $$\text{tr}(A + B) = \text{tr}(A) + \text{tr}(B)$$
-184. **Propiedad de la linealidad del determinante**
+186. **Propiedad de la linealidad del determinante**
     $$\det(AB) = \det(A)\det(B)$$
-185. **Propiedad del adjunto**
+187. **Propiedad del adjunto**
     $$\text{adj}(A^T) = (\text{adj}(A))^T$$
-186. **Propiedad de la inversa del adjunto**
+188. **Propiedad de la inversa del adjunto**
     $$\text{adj}(A^{-1}) = (\text{adj}(A))^{-1}$$
-187. **Producto de matrices (repetida)**
+189. **Producto de matrices (repetida)**
     $$A \cdot B$$
-188. **Inversa de una matriz (repetida)**
+190. **Inversa de una matriz (repetida)**
     $$A^{-1}$$
-189. **Norma de una matriz**
+191. **Norma de una matriz**
     $$\|A\| = \sqrt{\lambda_{\max}(A^T A)}$$
-190. **Propiedad de la norma respecto a la multiplicación**
+192. **Propiedad de la norma respecto a la multiplicación**
     $$\|A \cdot B\| \leq \|A\| \cdot \|B\|$$
-191. **Solución de un sistema lineal (repetida)**
+193. **Solución de un sistema lineal (repetida)**
     $$A \cdot x = b$$
-192. **Factorización LU (repetida)**
+194. **Factorización LU (repetida)**
     $$A = LU$$
-193. **Factorización QR (repetida)**
+195. **Factorización QR (repetida)**
     $$A = QR$$
-194. **Factorización SVD (repetida)**
+196. **Factorización SVD (repetida)**
     $$A = USV^*$$
-195. **Condición ortogonal (repetida)**
+197. **Condición ortogonal (repetida)**
     $$A^T \cdot A = I$$
-196. **Producto tensorial (repetida)**
+198. **Producto tensorial (repetida)**
     $$A \otimes B$$
-197. **Suma de matrices (repetida)**
+199. **Suma de matrices (repetida)**
     $$A + B$$
-198. **Transpuesta de una matriz (repetida)**
+200. **Transpuesta de una matriz (repetida)**
     $$A^T$$
-199. **Adjunta de una matriz (repetida)**
+201. **Adjunta de una matriz (repetida)**
     $$A^*$$
-200. **Diagonalización (repetida)**
+202. **Diagonalización (repetida)**
     $$A = PDP^{-1}$$
 
